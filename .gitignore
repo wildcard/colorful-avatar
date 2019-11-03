@@ -24,7 +24,8 @@ tags
 
 # End of https://www.gitignore.io/api/vim
 
-public/
+public/*
+!public/.gitkeep
 
 # Local Netlify folder
 .netlify
