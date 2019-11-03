@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-figlet "Brands colors"
+echo "Brands colors"
 
-find colors/* -type f -print0 | xargs -0 -I % sh -c 'echo $(basename %) $(cat %)' | column -t | tee /tmp/brands-colors
+find colors/* -type f -print0 | xargs -0 -I % sh -c 'echo $(basename %) $(cat %)' | tee /tmp/brands-colors
 
 echo
 

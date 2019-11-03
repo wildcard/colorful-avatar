@@ -5,7 +5,7 @@ brand=$2
 public_dir=${3:-'public/'}
 output="${public_dir}${brand}.png"
 
-figlet "$brand"
+echo "$brand"
 
 echo
 
