@@ -26,6 +26,6 @@ tags
 
 public/*
 !public/.gitkeep
-
+!public/_redirects
 # Local Netlify folder
 .netlify
